@@ -3,8 +3,14 @@ import { Stack } from 'expo-router'
 
 export function Layout() {
   return (
-    <Stack screenOptions={{
-        headerShown: false,
-    }} />
+    <Stack>
+        <Stack.Screen
+            name="index"
+            options={{
+            headerShown: false,
+            title: 'Home',
+            }}
+        />
+    </Stack>
   )
 }
