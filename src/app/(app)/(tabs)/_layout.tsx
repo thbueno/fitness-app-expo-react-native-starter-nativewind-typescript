@@ -59,7 +59,7 @@ export default function Layout() {
           options={{title: "History", headerShown: false,
             tabBarIcon: ({ color, size}) => (
               <AntDesign
-                name="pluscircle"
+                name="clockcircleo"
                 size={size}
                 color={color} 
               />
